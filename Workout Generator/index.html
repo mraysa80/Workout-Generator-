@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+</head>
+<title>Workout Generator</title>
+<body>
+<div class="title">
+<center><h1>Workout Of The Day</h1></center>
+<img src="bluedumbbell.png" alt="blue dumbbell image" class="bluedumbbells">
+</div>
+<br>
+<center><form action= "generatorresults.html" name="workoutresults" onsubmit="return onSubmit()">
+    <div class="firstname">
+    <label for="fname">First Name:</label>
+    <input type="text" name="name" value="">
+    </div>
+    <br>
+    <br>
+    <div class="bodypart">
+    <label for="bodypart">What body part are you working out today?</label>
+    <br>
+    <label><input type="radio" id="chest" value="chest" name="bodypart">Chest<br></label>
+    <label><input type="radio" id="back" value="back" name="bodypart" >Back<br></label>
+    <label><input type="radio" id="arms" value="arms" name="bodypart" >Arms<br></label>
+    <label><input type="radio" id="abs" value ="abs" name="bodypart" >Abs<br></label>
+    <label ><input type="radio" id="legs" value ="legs" name="bodypart" >Legs<br></label>
+    <label><input type="radio" id="shoulders" value ="shoulders" name="bodypart">Shoulders<br></label>
+    <br>
+    </div>
+    
+    <div class="numofexercises">
+    <label for="numofexercises">How many exercises do you want to do? Pick a number (1-6)</label>
+    <select name="numofexercises" id="numofexercises">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    <br>
+    <br>
+    </div>
+    <div class="submitbutton">
+    <button type ="submit" target="_self" >Get Workout</button>
+    </div>
+</form></center>
+</body>
+<script src ="script.js"></script>
+</html>

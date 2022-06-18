@@ -1,0 +1,47 @@
+.bluedumbbells{
+    margin: auto 5px;
+    float: center;
+    width: 150px;
+    height: 60px
+    
+}
+.title { 
+    color: #3392FF;
+    font-family: 'Koulen', cursive;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center
+}
+
+.firstname {
+    margin-top: 50px;
+    font-family: 'Koulen', cursive;
+    color: #03045f;
+}
+
+.bodypart{
+    font-family: 'Koulen', cursive;
+    color: #03045f;
+}
+
+.numofexercises{
+    font-family: 'Koulen', cursive;
+    color: #03045f;
+}
+
+.submitbutton {
+    margin-bottom: 50px;
+    font-family: 'Koulen', cursive;
+}
+
+
+form {
+    width: 450px;
+    height: 450px;
+    margin-top: 30px;
+    background-color: lightblue;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(borderbackground.jpeg) 10 round;
+}
